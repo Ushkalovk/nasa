@@ -7,11 +7,13 @@ class DateComponent extends React.Component {
     onChange = (value) => {this.props.dateMethod(value) };
     render() {
         return (
-            <div>
+
+            <div className="calend">
                 <Calendar
                 onChange={this.onChange}
                 value={new Date()}
                 maxDate={new Date()}
+                className="container calend"
                 />
             </div>
         );
