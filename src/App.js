@@ -90,7 +90,7 @@ class App extends React.Component {
                             <DateComponent dateMethod={this.gettingDate} imageMethod={this.gettingImage} />
                         </div>
                     </div>
-                    <div className="col-md-12 mt-2">
+                    <div className="col-md-12 mt-2 mb-3">
                             <form onSubmit={this.gettingImage}>
                                 <button className="btn btn-lg btn-block btn-primary btn-circle align-content-center marg align-middle" >Посмотреть</button>
                             </form>
